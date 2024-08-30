@@ -15,7 +15,10 @@ public class Demo2Application {
 			System.out.println("welcome");
 		}
 	}
+               public void anothemethod(){
 
+		      System.out.println("added new method");
+	       }
 	public static void main(String[] args) {
 		SpringApplication.run(Demo2Application.class, args);
 		
