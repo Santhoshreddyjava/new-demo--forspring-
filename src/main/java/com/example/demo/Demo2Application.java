@@ -18,8 +18,13 @@ public class Demo2Application {
 		
 	Map<Object, Long> vb =	s.chars().mapToObj(c->(char)c).collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
 
-	System.out.println(vb);
+	vb.forEach((k,v)->{
+		if(v>1) {
+			System.out.println(k+":"+v);
+		}
+	});
 	
+	 	
 	}
 
 }
