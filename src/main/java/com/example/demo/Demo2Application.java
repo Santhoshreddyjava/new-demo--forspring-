@@ -20,10 +20,10 @@ public class Demo2Application {
 
 	vb.forEach((k,v)->{
 		if(v>1) {
-			System.out.println(k+":"+v);
+			System.out.println(k+":"+v+"values ");
 		}
 	});
-	
+		
 	 	
 	}
 
